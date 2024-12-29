@@ -21,9 +21,6 @@ const SideWeather = () => {
             <p>Rain - 30%</p>
           </div>
         </div>
-        <p className="text-center pt-[50%] font-semibold text-[20px]">
-          New York, USA
-        </p>
       </div>
     </div>
   );
