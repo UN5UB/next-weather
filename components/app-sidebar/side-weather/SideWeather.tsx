@@ -1,4 +1,4 @@
-import { cloudy, rain, sideSun } from "@/app/utils/icons";
+import { sideStatusCloudy, sideStatusRain, sideSun } from "@/app/utils/icons";
 import React from "react";
 
 const SideWeather = () => {
@@ -13,11 +13,11 @@ const SideWeather = () => {
         <div></div>
         <div className="flex flex-col gap-3 px-7">
           <div className="flex gap-4">
-            {cloudy}
+            {sideStatusCloudy}
             <p>Cloudy</p>
           </div>
           <div className="flex gap-4">
-            {rain}
+            {sideStatusRain}
             <p>Rain - 30%</p>
           </div>
         </div>

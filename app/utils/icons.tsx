@@ -19,6 +19,8 @@ import {
   CalendarDays,
   SunDim,
   Locate,
+  MoveUp,
+  MoveDown,
 } from "lucide-react";
 
 export const sideRain = <CloudRain size={150} />;
@@ -49,3 +51,12 @@ export const calender = <CalendarDays size={65} />;
 export const sun = <SunDim size={65} />;
 export const search = <Search size={20} />;
 export const locate = <Locate size={20} />;
+export const arrowUp = <MoveUp size={30} />;
+export const arrowDown = <MoveDown size={30} />;
+export const sideStatusRain = <CloudRain size={35} />;
+export const sideStatusSnow = <Snowflake size={35} />;
+export const sideStatusClearSky = <CloudSun size={35} />;
+export const sideStatusCloudy = <Cloudy size={35} />;
+export const sideStatusSunset = <Sunset size={35} />;
+export const sideStatusWind = <Wind size={35} />;
+export const sideStatusSun = <SunDim size={35} />;
